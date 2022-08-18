@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PicklePorts.NewPage1"
+             Title="NewPage1">
+    <ScrollView>
+
+        <VerticalStackLayout>
+            <Button 
+                Text="Back to Main Page"
+                FontAttributes="Bold"
+                Clicked="GoBack"
+                HorizontalOptions="Center"
+                WidthRequest="200"/>
+            <Label 
+                Text="Intro and Requirements"
+                FontSize="24"/>
+            <Label 
+                Text="This is the main documentation of Pickle Ports and how to use it so feel free to read it to your benefit. Pickle Ports is a Port mapper that uses the Upnp protocol that allows it to directly communicate mappings. It can also theroetically support PMP protocol but support is broken and not for normal use.  Most routers support the Upnp protocol although it is a little dangerous because of its vulnerabilities but this is not the time to talk about it. Some even already have it enabled such as the ever annoying xFinity.  Just as a warning, this program is also not the most efficent nor bug free, so feel free to leave a comment on the Microsoft Store."
+                FontSize="14"
+                HorizontalOptions="Center" />
+            <Label 
+                Text="How to Use"
+                FontSize="24"/>
+            <Label 
+                Text="Just click connect to get all port mappings and to discover the router, then just edit to your liking and make sure to read all the notes, they can be pretty helpful. Don't move anywhere or any current operation will be interupted.  Absolute Infinite: This setting is special as it forces the computer to check if the port mapping exisits, and if it doesn't it will renew it.  But if the computer is shutdown, or away from the router, the mapping will eventually disappear if the router doesn't support infinite mappings, as some don't, which is the reason for this setting."
+                FontSize="14"
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Why this program was created"
+                FontSize="24"/>
+            <Label 
+                Text="This program is meant to be a replacement of the popular Upnp Portmapper, as it had old UI and bad libaries. This was also meant to apply some ideas that would increase the usability of this program.  Sadly this was also meant to be a way to earn money as free software doesn't pay. So sorry about that."
+                FontSize="14"
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Credits"
+                FontSize="24"/>
+            <Label 
+                Text="Pickle Ports was developed by Unknown Bot Industries. Open.NAT was developed by Lucas Ontivero.  Xfinity and all assets of Xfinity belong to Comcast Inc."
+                FontSize="14"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

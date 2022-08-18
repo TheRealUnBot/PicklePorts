@@ -1,0 +1,9 @@
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\bin\Debug\net45\Open.Nat.dll
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\bin\Debug\net45\Open.Nat.pdb
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\obj\Debug\net45\Open.Nat.csproj.AssemblyReference.cache
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\obj\Debug\net45\Open.Nat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\obj\Debug\net45\Open.Nat.AssemblyInfoInputs.cache
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\obj\Debug\net45\Open.Nat.AssemblyInfo.cs
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\obj\Debug\net45\Open.Nat.csproj.CoreCompileInputs.cache
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\obj\Debug\net45\Open.Nat.dll
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\obj\Debug\net45\Open.Nat.pdb

@@ -1,0 +1,5 @@
+C:\Users\victo\Downloads\RegisterRenewal.exe
+C:\Users\victo\Downloads\RegisterRenewal.dll
+C:\Users\victo\Downloads\RegisterRenewal.deps.json
+C:\Users\victo\Downloads\RegisterRenewal.runtimeconfig.json
+C:\Users\victo\Downloads\RegisterRenewal.pdb

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "ssSW6i1JcisIEmnIfBgH8gFBjLRRQXWIRfS01/dgoS8b+9HAe7UczkwCdr6Fil//TuNVb85H76CsiHkTjlDCNA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yotob\\Downloads\\PicklePortsRenew\\PicklePortsRenew\\PicklePortsRenew.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yotob\\.nuget\\packages\\open.nat\\2.1.0\\open.nat.2.1.0.nupkg.sha512",
+    "C:\\Users\\yotob\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\yotob\\.nuget\\packages\\system.serviceprocess.servicecontroller\\6.0.0\\system.serviceprocess.servicecontroller.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Open.NAT 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Open.NAT",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

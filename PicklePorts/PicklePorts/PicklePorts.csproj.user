@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ActiveDebugFramework>net6.0-windows10.0.19041.0</ActiveDebugFramework>
+    <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
+    <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
+    <Source>C:\Users\victo\Downloads\PicklePorts\PicklePorts\Untitled.png</Source>
+    <SmallTileSource>C:\Users\victo\Downloads\PicklePorts\PicklePorts\Untitled.png</SmallTileSource>
+    <MediumTileSource>C:\Users\victo\Downloads\PicklePorts\PicklePorts\Untitled.png</MediumTileSource>
+    <WideTileSource>C:\Users\victo\Downloads\PicklePorts\PicklePorts\Untitled.png</WideTileSource>
+    <LargeTileSource>C:\Users\victo\Downloads\PicklePorts\PicklePorts\Untitled.png</LargeTileSource>
+    <AppIconSource>C:\Users\victo\Downloads\PicklePorts\PicklePorts\Untitled.png</AppIconSource>
+    <SplashScreenSource>C:\Users\victo\Downloads\PicklePorts\PicklePorts\Untitled.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\victo\Downloads\PicklePorts\PicklePorts\Untitled.png</PackageLogoSource>
+  </PropertyGroup>
+  <ItemGroup>
+    <MauiXaml Update="NewPage1.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Platforms\Windows\Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>

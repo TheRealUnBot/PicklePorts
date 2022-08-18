@@ -1,0 +1,5 @@
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\bin\Release\net6.0-windows10.0.19041.0\publish\Open.Nat.dll
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\bin\Release\net6.0-windows10.0.19041.0\publish\Open.Nat.deps.json
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\bin\Release\net6.0-windows10.0.19041.0\publish\Open.Nat.pdb
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\bin\Release\net6.0-windows10.0.19041.0\publish\Microsoft.Windows.SDK.NET.dll
+C:\Users\yotob\Downloads\PicklePorts\Open.Nat\bin\Release\net6.0-windows10.0.19041.0\publish\WinRT.Runtime.dll

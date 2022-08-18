@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PicklePorts.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout x:Name="MainLayout" Spacing="25" Padding="30">
+
+            <Label 
+                Text="Port Mapping Creator and Editor"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" 
+                />
+            <Label 
+                Text="Status: Not Connected"
+                FontSize="18"
+                FontAttributes="Bold"
+                x:Name="Status"
+                HorizontalOptions="Center"/>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Button 
+                Text="Connect"
+                x:Name="Connect"
+                FontAttributes="Bold"
+                Clicked="OnConnectClicked"
+                WidthRequest="85"/>
+                <Button 
+                Text="Info"
+                FontAttributes="Bold"
+                Clicked="ShowInfo"
+                WidthRequest="85"/>
+            </HorizontalStackLayout>
+            <Label 
+                Text=""
+                FontSize="18"
+                FontAttributes="Bold"
+                x:Name="ExternalIP"
+                HorizontalOptions="Center" 
+                x:FieldModifier="public"/>
+            <Label 
+                Text=""
+                FontSize="18"
+                FontAttributes="Bold"
+                x:Name="InternalIP"
+                HorizontalOptions="Center"
+                Loaded="ShowWelcome"/>
+            <Grid RowSpacing="3" ColumnSpacing="3" x:Name="MappingGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="35" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

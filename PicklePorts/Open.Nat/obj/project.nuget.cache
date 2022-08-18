@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "0iKDU+qyZ6fGlj7YNOnUNrtJS9tamutic41WCYczdM53gsBwCKtpb/D+oA8j5STD5ZPndtXk/6tWkH7y0NWVWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yotob\\Downloads\\PicklePorts\\Open.Nat\\Open.Nat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yotob\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\yotob\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\yotob\\.nuget\\packages\\taskparallellibrary\\1.0.2856\\taskparallellibrary.1.0.2856.nupkg.sha512",
+    "C:\\Users\\yotob\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.26\\microsoft.windows.sdk.net.ref.10.0.19041.26.nupkg.sha512"
+  ],
+  "logs": []
+}

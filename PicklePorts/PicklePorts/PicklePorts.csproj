@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net6.0-windows10.0.19041.0</TargetFrameworks>
+		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
+		<!-- <TargetFrameworks>$(TargetFrameworks);net6.0-tizen</TargetFrameworks> -->
+		<OutputType>Exe</OutputType>
+		<RootNamespace>PicklePorts</RootNamespace>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Display name -->
+		<ApplicationTitle>PicklePorts</ApplicationTitle>
+
+		<!-- App Identifier -->
+		<ApplicationId>com.companyname.pickleports</ApplicationId>
+		<ApplicationIdGuid>B819AF51-1790-46D8-9E0A-0AEBDB6AC666</ApplicationIdGuid>
+
+		<!-- Versions -->
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationVersion>1</ApplicationVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.18362.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.18362.0</TargetPlatformMinVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.18362.0</TargetPlatformMinVersion>
+		<Title>Pickle Ports</Title>
+		<Authors>Unknown Bot</Authors>
+		<Company>UnknownBotIndustries</Company>
+		<DefaultLanguage>en</DefaultLanguage>
+		<PackageCertificateThumbprint>4341163F66C1FD498E350770207ECD79A9AD6008</PackageCertificateThumbprint>
+		<AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+		<PackageCertificateKeyFile>PicklePorts_TemporaryKey.pfx</PackageCertificateKeyFile>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+	<PropertyGroup Condition="$(TargetFramework.Contains('-windows')) and '$(Configuration)' == 'Release'">
+		<GenerateAppxPackageOnBuild>true</GenerateAppxPackageOnBuild>
+		<AppxPackageSigningEnabled>true</AppxPackageSigningEnabled>
+		<PackageCertificateThumbprint>F72D5037BDF55E52F0FECBCC1944B8CDC8DACFD0</PackageCertificateThumbprint>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- App Icon -->
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+
+		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\splashscreen.png" Color="#512BD4" BaseSize="128,128" />
+
+		<!-- Images -->
+		<MauiImage Include="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
+		<Content Include="Resources\Images\untitled.png" />
+		
+		<!-- Custom Fonts -->
+		<MauiFont Include="Resources\Fonts\*" />
+
+		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+		<!--<COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+		  <WrapperTool>tlbimp</WrapperTool>
+		  <VersionMinor>4</VersionMinor>
+		  <VersionMajor>2</VersionMajor>
+		  <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+		</COMReference>--> 
+    <Content Include="PicklePortsRenew.exe" />
+    <Content Include="RegisterRenewal.exe" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Open.Nat\Open.Nat.csproj" />
+	</ItemGroup>
+
+
+	<!--<ItemGroup>
+	  <MauiImage Include="Resources\Splash\splashscreen.png" />
+	</ItemGroup>-->
+
+	<ItemGroup>
+	  <MauiXaml Update="NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+</Project>

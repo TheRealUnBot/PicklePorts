@@ -1,0 +1,15 @@
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\bin\Release\net6.0\win-x64\RegisterRenewal.exe
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\bin\Release\net6.0\win-x64\RegisterRenewal.deps.json
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\bin\Release\net6.0\win-x64\RegisterRenewal.runtimeconfig.json
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\bin\Release\net6.0\win-x64\RegisterRenewal.dll
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\bin\Release\net6.0\win-x64\RegisterRenewal.pdb
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\obj\Release\net6.0\win-x64\RegisterRenewal.csproj.AssemblyReference.cache
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\obj\Release\net6.0\win-x64\RegisterRenewal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\obj\Release\net6.0\win-x64\RegisterRenewal.AssemblyInfoInputs.cache
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\obj\Release\net6.0\win-x64\RegisterRenewal.AssemblyInfo.cs
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\obj\Release\net6.0\win-x64\RegisterRenewal.csproj.CoreCompileInputs.cache
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\obj\Release\net6.0\win-x64\RegisterRenewal.dll
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\obj\Release\net6.0\win-x64\refint\RegisterRenewal.dll
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\obj\Release\net6.0\win-x64\RegisterRenewal.pdb
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\obj\Release\net6.0\win-x64\RegisterRenewal.genruntimeconfig.cache
+C:\Users\victo\Downloads\RegisterRenewal\RegisterRenewal\obj\Release\net6.0\win-x64\ref\RegisterRenewal.dll
